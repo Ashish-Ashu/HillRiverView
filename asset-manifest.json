@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/HillRiverView/static/css/main.3bd6c151.css",
+    "main.js": "/HillRiverView/static/js/main.0abde371.js",
+    "static/js/453.60986aca.chunk.js": "/HillRiverView/static/js/453.60986aca.chunk.js",
+    "static/media/IMG-20240427-WA0025.jpg": "/HillRiverView/static/media/IMG-20240427-WA0025.5096149b810ef05a6ba9.jpg",
+    "static/media/IMG-20240427-WA0014.jpg": "/HillRiverView/static/media/IMG-20240427-WA0014.26e13dbfbdf054ad72b0.jpg",
+    "static/media/IMG-20240427-WA0000.jpg": "/HillRiverView/static/media/IMG-20240427-WA0000.a6b8bdd1264fd7c47639.jpg",
+    "index.html": "/HillRiverView/index.html",
+    "main.3bd6c151.css.map": "/HillRiverView/static/css/main.3bd6c151.css.map",
+    "main.0abde371.js.map": "/HillRiverView/static/js/main.0abde371.js.map",
+    "453.60986aca.chunk.js.map": "/HillRiverView/static/js/453.60986aca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bd6c151.css",
+    "static/js/main.0abde371.js"
+  ]
+}
