@@ -16,6 +16,7 @@ const App = () => {
           <CustomNavbar />
           <Routes>
             <Route exact path="/" element={<Homepage />} />
+            <Route exact path="/HillRiverView/" element={<Homepage />} />
             <Route path="/rooms" element={<Rooms />} />
             <Route path="/amenities" element={<Amenities />} />
             <Route path="/contact" element={<Contact />} />
