@@ -1,0 +1,18 @@
+/* Navbar.css */
+
+/* Custom styles for the navbar if needed */
+.navbar {
+    background: #333;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.button {
+    margin-left: 1rem;
+}
