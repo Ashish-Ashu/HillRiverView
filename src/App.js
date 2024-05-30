@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CustomNavbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
 import Rooms from './components/Rooms';
 import Amenities from './components/Amenities';
@@ -13,7 +13,7 @@ const App = () => {
     <Router>
       <AuthProvider>
         <div className="app">
-          <CustomNavbar />
+          <Navbar />
           <Routes>
             <Route exact path="/" element={<Homepage />} />
             <Route path="/rooms" element={<Rooms />} />
