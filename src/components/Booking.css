@@ -1,19 +1,21 @@
-/* Booking.css */
-
 .booking {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .booking h1 {
-    text-align: center;
-    font-size: 2.5em;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
 .booking-form {
-    max-width: 400px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking-form form {
+    width: 300px;
 }
 
 .form-group {
@@ -21,28 +23,37 @@
 }
 
 label {
-    display: block;
-    font-size: 1.2em;
-    margin-bottom: 5px;
+    font-weight: bold;
 }
 
-input[type="date"],
-input[type="number"] {
+input,
+select {
     width: 100%;
     padding: 10px;
-    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-top: 5px;
 }
 
 button {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
     border: none;
+    padding: 10px 20px;
     border-radius: 5px;
-    font-size: 1.2em;
     cursor: pointer;
+    font-size: 1rem;
 }
 
-button:hover {
-    background-color: #555;
+.price {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.tax {
+    color: #616b77;
+    font-weight: bold;
+    font-size: x-small;
 }

@@ -1,0 +1,9 @@
+const firebaseConfig = {
+    apiKey: "AIzaSyDwtfGkFoniVAmMuWDNmbPOQahJ8qRyIqE",
+    authDomain: "hillriverview-c7fb1.firebaseapp.com",
+    projectId: "hillriverview-c7fb1",
+    storageBucket: "hillriverview-c7fb1.appspot.com",
+    messagingSenderId: "407462636815",
+    appId: "1:407462636815:web:be412ae6346f93bca5a27a",
+    measurementId: "G-QQG01576TS"
+};
