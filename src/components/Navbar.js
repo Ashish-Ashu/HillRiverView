@@ -9,6 +9,7 @@ const CustomNavbar = () => {
     const [showModal, setShowModal] = useState(false);
     const [loading, setLoading] = useState(false);
 
+
     const handleLoginOption = async (provider) => {
         setLoading(true);
         try {
